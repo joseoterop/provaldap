@@ -1,0 +1,53 @@
+dn: dc=jose,dc=cat
+dc: jose
+description: organizacion independentista
+objectClass: dcObject
+objectClass: organization
+o: jose.cat
+
+dn: ou=socis,dc=jose,dc=cat
+ou: socis
+description: Container per a maquines linux
+objectclass: organizationalunit
+
+dn: ou=simpatitzants,dc=jose,dc=cat
+ou: simpatitzants
+description: Container per a clients linux
+objectclass: organizationalunit
+
+
+dn: xidcat=1,ou=socis,dc=jose,dc=cat
+objectclass: xindepeOrgPerson
+objectclass: inetOrgPerson
+cn: Pau codines
+sn: pau
+uid: 1
+xidcat: 1
+xsardanes: TRUE
+xfoto: ///opt/docker/pedro.jpeg
+xlema: viva sevilla
+xtwitter: @elcoco
+
+dn: xidcat=2,ou=socis,dc=jose,dc=cat
+objectclass: xindepeOrgPerson
+objectclass: inetOrgPerson
+cn: Andres peprillo
+sn: andi
+uid: 2
+xidcat: 2
+xsardanes: FALSE
+xfoto: ///opt/docker/pabloiglesias.jpeg
+xlema: viva la tortilla
+xtwitter: @elcolibri
+
+dn: xidcat=3,ou=socis,dc=jose,dc=cat
+objectclass: xindepeOrgPerson
+objectclass: inetOrgPerson
+cn: Oscar dalmau
+sn: oski
+uid: 3
+xidcat: 3
+xsardanes: FALSE
+xfoto: ///opt/docker/pabloiglesias.jpeg
+xlema: viva paquirrin
+xtwitter: @el_compal

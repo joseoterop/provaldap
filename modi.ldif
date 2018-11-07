@@ -1,0 +1,30 @@
+dn: xidcat=1,ou=socis,dc=jose,dc=cat
+changetype: modify
+add: objectClass
+objectClass: xllarenaAccount
+-
+add: xdelictes
+xdelictes: blasfemo
+-
+add: xgaleres
+xgaleres: TRUE
+-
+add: xanyscondemna
+xanyscondemna: 200
+
+dn: xidcat=2,ou=socis,dc=jose,dc=cat
+changetype: modify
+add: objectClass
+objectClass: xllarenaAccount
+-
+add: xdelictes
+xdelictes: independentista
+-
+add: xgaleres
+xgaleres: FALSE
+-
+add: xanyscondemna
+xanyscondemna: 2000
+
+
+
